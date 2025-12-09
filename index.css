@@ -1,0 +1,172 @@
+body{
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #121212;
+color: #D3D3D3;
+height: 100%;
+width: 100%;
+overflow: hidden;
+padding-bottom: 0px;
+margin: 0;
+}
+@media screen and (min-width: 600px) {    
+/* .vpBorder{
+    display: block;
+    position: absolute;
+    align-content: center;
+    margin: 0;
+    top: 0;
+    left:50vw;
+    height: 100vh;
+    width: 1vw;
+    box-shadow: inset 0 0 0 5px #D3D3D3; 
+}*/
+}
+.container{
+    height: 100vh;
+    flex-direction: column;
+}
+.head{
+    padding-top: 5%;
+    flex: row;
+    line-height: 0.1;
+    height: 30vh;
+}
+.head #h1{
+    font-size: 70px;
+}
+.head #des{
+    font-size: 20px;
+}
+.contents{
+    padding-top: 2px;
+    height: 100vh;
+    padding-top: 50px;
+    size: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.contents #lab{
+    font-size: 30px;
+}
+.contents #inp{
+    border-width: 5px;
+    border-style: solid;
+}
+.contents input[type="text"]{
+    font-size: 6vh ;
+    background-color: #121212;
+    border-radius: 10px;
+    color: #D3D3D3;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+button{
+    background:0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    position: relative;
+    size: 20px;
+}
+/* buttons */
+button .top{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7mm;
+    background-color: #D3D3D3;
+    outline: 2px solid rgb(55, 55, 55);
+    z-index: 1;
+}
+button .bottom{
+    padding-right: 40px ;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7mm;
+    background-color: #a3a3a3;
+    outline: 2px solid rgb(55, 55, 55);
+    z-index: -1;
+}
+button .bottom2{
+    padding-right: 40px ;
+    position: absolute;
+    top: 25px;
+    left: -1px;
+    height: 100%;
+    width: calc(100% + 2px);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7mm;
+    background-color: #a3a3a3;
+    outline: 2px solid rgb(55, 55, 55);
+    z-index: -2;
+}
+.bottom::before{
+content: "";
+width: 3px;
+height: 27px;
+background: rgb(96,96,96);
+position: absolute;
+left: 17%;
+bottom: 0px;
+}
+.bottom::after{
+content: "";
+width: 3px;
+height: 27px;
+background: rgb(96, 96, 96);
+position: absolute;
+bottom: 0px;
+left: 83%;
+}
+button:active .top{
+ transform: translateY(20px);
+ transition: 0.2s;
+}
+
+/* for phones*/
+@media screen and (max-width: 600px){
+.contents input[type="text"]{
+    font-size: 6vw ;
+    background-color: #121212;
+    border-radius: 10px;
+    color: #D3D3D3;
+    border: 40px 40px 40px 40px;
+}
+.contents #lab{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+.head{
+    padding-top: 10%;
+    flex: row;
+    line-height: 0.1;
+    height: 30vh;
+}
+.head #h1{
+    font-size: 50px;
+}
+.head #des{
+    font-size: 20px;
+}
+}
+
+
