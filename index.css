@@ -138,11 +138,17 @@ left: 83%;
 }
 button:active .top{
  transform: translateY(20px);
- transition: 0.2s;
+ transition: 0.1s;
 }
-
 /* for phones*/
 @media screen and (max-width: 600px){
+.butts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 70px;
+    margin-right: 35px;
+}
 .contents input[type="text"]{
     font-size: 6vw ;
     background-color: #121212;
@@ -153,7 +159,7 @@ button:active .top{
 .contents #lab{
     display: flex;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 30px;
 }
 .head{
     padding-top: 10%;
