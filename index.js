@@ -32,6 +32,6 @@ function checkinput(){
         window.alert("Enter some shi")
     }
     else{
-        window.alert("After analysing the name in our database "+value + " is straight as the pole his/her's gay friend's mom dances on")
+        window.alert("After analysing the name in our database " +value + " is straighter than the pole his/her's gay friend's mom dances on")
     }
 }
