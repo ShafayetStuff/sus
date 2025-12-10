@@ -11,34 +11,35 @@
     height: 10vh;
 }
 .head #h1{
-    font-size: 70px;
+    font-size: 4.375rem;
 }
 .head #des{
-    font-size: 20px;
+    font-size: 1.250rem;
 }
 .contents{
-    padding-top: 2px;
+    padding-top: 0.125rem;
     height: 40vh;
-    size: 10px;
+    size: 0.625rem;
     justify-content: center;
     text-align: center;
     align-items: center;
     padding-bottom: 2%;
 }
 .contents #lab{
-    font-size: 40px;
+    font-size: 3rem;
     display: flex;
     flex-direction: column;
 }
 .contents #inp{
-    border-width: 5px;
+    border-width: 0.3125rem;
     border-style: solid;
 }
 .contents input[type="text"]{
-    font-size: 6vh ;
+    font-size: 2rem ;
     background-color: #121212;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: #D3D3D3;
+    text-align: center;
 }
 /* footer{
     width: 100%;
@@ -48,11 +49,11 @@
     pointer-events: none;
 } */
 #footDes{
-padding: 0px;
+padding: 0rem;
 
 }
  footer{
-    font-size: 20px;
+    font-size: 1.25rem;
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -61,3 +62,71 @@ padding: 0px;
     background: linear-gradient(to right, #101010,#101010,#101010,#101010, #2d0057);
     font-family: 'Roboto Mono';
 } 
+a {
+  color: #7c3aed;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #a78bfa;
+  background: rgba(124, 58, 237, 0.1);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+@media screen and (max-width: 600px){
+     footer{
+    font-size: 1rem;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(to right, #101010,#101010,#101010,#101010, #2d0057);
+    font-family: 'Roboto Mono';
+} 
+a {
+  color: #7c3aed;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  padding: 0.5rem 0.25rem;
+}
+
+a:hover,
+a:active {
+  color: #a78bfa;
+}
+.contents input[type="text"]{
+    font-size: 1rem;
+    background-color: #121212;
+    border-radius: 0.625rem;
+    color: #D3D3D3;
+    border: 2.5rem 2.5rem 2.5rem 2.5rem;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.contents input[type="text"]:focus {
+  outline: none;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 1rem;
+}
+.contents #lab{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.875rem;
+}
+.head{
+    padding-top: 10%;
+    flex: row;
+    line-height: 0.1;
+    height: 30vh;
+}
+.head #h1{
+    font-size: 2rem;
+}
+.head #des{
+    font-size: 1rem;
+}
+}

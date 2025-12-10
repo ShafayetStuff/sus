@@ -29,6 +29,7 @@ font-family: 'Poppins';
 input[type="text"]:focus {
   outline: none;
   text-align: center;
+  font-family: 'Poppins';
 }
 /* for phones*/
 @media screen and (max-width: 600px){
@@ -36,41 +37,7 @@ input[type="text"]:focus {
     display: flex;
     justify-content: center;
     align-items: center;
-    right: 70px;
-    margin-right: 35px;
+    right: 4.375rem;
+    margin-right: 2.1875rem;
 }
-.contents input[type="text"]{
-    font-size: 20px ;
-    background-color: #121212;
-    border-radius: 10px;
-    color: #D3D3D3;
-    border: 40px 40px 40px 40px;
-}
-.contents #lab{
-    display: flex;
-    flex-direction: column;
-    font-size: 30px;
-}
-.head{
-    padding-top: 10%;
-    flex: row;
-    line-height: 0.1;
-    height: 30vh;
-}
-.head #h1{
-    font-size: 50px;
-}
-.head #des{
-    font-size: 20px;
-}
- footer{
-    font-size: 20px;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    text-align: center;
-    align-items: center;
-    background: linear-gradient(to right, #101010,#101010,#101010,#101010, #2d0057);
-    font-family: 'Roboto Mono';
-} 
 }
