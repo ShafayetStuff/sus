@@ -21,7 +21,8 @@ const validName = [
     'plabon',
     'Plabon',
     'Tarif',
-    'hasin'
+    'hasin',
+    'rashed',
 ]
 function checkinput(){
     const value = document.getElementById("inp").value.toLowerCase();
@@ -29,6 +30,9 @@ function checkinput(){
         window.alert("After analysing the name in our database " + value + " is Gay")
     }
     else if(value === ""){
+        window.alert("Enter some shi")
+    }
+       else if(value.includes(" ")){
         window.alert("Enter some shi")
     }
     else{
