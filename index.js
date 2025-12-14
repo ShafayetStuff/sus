@@ -23,7 +23,7 @@ const validName = [
     'Tarif',
     'hasin',
     'rashed',
-    'Tanim',
+    'tanim',
     'adit',
     'faaris'
 ]
