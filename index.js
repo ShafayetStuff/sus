@@ -23,6 +23,9 @@ const validName = [
     'Tarif',
     'hasin',
     'rashed',
+    'Tanim',
+    'adit',
+    'faaris',
 ]
 
 function sleep(ms) {
