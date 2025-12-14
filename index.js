@@ -25,7 +25,7 @@ const validName = [
     'rashed',
     'Tanim',
     'adit',
-    'faaris',
+    'faaris'
 ]
 
 function sleep(ms) {
