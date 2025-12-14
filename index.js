@@ -25,7 +25,7 @@ function sleep(ms) {
 }
 
 async function checkinput(){
-    const value = document.getElementById("inp").value.toLowerCase();
+    const value = document.getElementById("inp").value.trim().toLowerCase();
     
     if(validName.includes(value)){
         window.alert("After analysing the name in our database " + value + " is Gay");
